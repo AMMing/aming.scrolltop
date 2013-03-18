@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Demo</title>
+    <link rel="stylesheet" type="text/css" href="css/jquery.aming.scrolltop.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.aming.scrolltop.js"></script>
+
+</head>
+<body>
+    <div>
+        <div style="width: 300px; height: 200px; background-color: #f00"></div>
+        <div style="width: 300px; height: 200px; background-color: #ff6a00"></div>
+        <div style="width: 300px; height: 200px; background-color: #ffd800"></div>
+        <div style="width: 300px; height: 200px; background-color: #b6ff00"></div>
+        <div style="width: 300px; height: 200px; background-color: #4cff00"></div>
+        <div style="width: 300px; height: 200px; background-color: #f00"></div>
+        <div style="width: 300px; height: 200px; background-color: #ff6a00"></div>
+        <div style="width: 300px; height: 200px; background-color: #ffd800"></div>
+        <div style="width: 300px; height: 200px; background-color: #b6ff00"></div>
+        <div style="width: 300px; height: 200px; background-color: #4cff00"></div>
+    </div>
+    <div id="aming_scrolltop"></div>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#aming_scrolltop").click(function () {
+
+            });
+            $(window).scroll(function () {
+                document.title = $(window).scrollTop();
+            })
+        });
+    </script>
+</body>
+</html>
