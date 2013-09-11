@@ -4,7 +4,6 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Demo</title>
-    <link rel="stylesheet" type="text/css" href="css/jquery.aming.scrolltop.css">
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/jquery.aming.scrolltop.js"></script>
 
@@ -25,13 +24,11 @@
     <div id="aming_scrolltop"></div>
 
     <script type="text/javascript">
-        $(document).ready(function () {
-            $("#aming_scrolltop").click(function () {
-
-            });
-            $(window).scroll(function () {
+        $(document).ready(function() {
+            $().aming_scrolltop();
+            $(window).scroll(function() {
                 document.title = $(window).scrollTop();
-            })
+            });
         });
     </script>
 </body>
