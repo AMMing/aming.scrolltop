@@ -74,6 +74,7 @@ jQuery.extend(jQuery.easing, {
             $totop_frame.css('position', 'fixed');
             $totop_frame.css('bottom', '0');
             $totop_frame.css('left', '0');
+            $totop_frame.css('z-index', '10000000000000000');
 
             /* set event */
             jQuery(window).bind('scroll', function() {
